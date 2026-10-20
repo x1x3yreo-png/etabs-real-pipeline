@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "etabs-industrial-pipeline"
+version = "0.1.0"
+description = "Industrial automation pipeline for ETABS and Revit structural workflows"
+authors = [{ name = "Your Name" }]
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+    "numpy>=1.24.0",
+    "pywin32>=306",
+]

@@ -1,0 +1,14 @@
+project:
+  name: "ETABS Automation"
+
+paths:
+  input_dir: "data/input"
+  output_dir: "data/output"
+
+limits:
+  drift_limit: 0.005
+  section_limit: 0.90
+
+etabs:
+  model_path: null
+  auto_run_analysis: true
